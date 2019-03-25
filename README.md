@@ -12,6 +12,3 @@ Please reach out with bugs/fixes to christianyost.0@gmail.com
 
 http://www.christianyostdsp.com 
 
-EDITS:
-
-25.03.2019 - fixed an error message for cycle~ taking infinite frequency. When using the 		logarithmic frequency slide in alias mode, we simply need to add a conditional changing a zero going into the ‘log’ object to a one, so that we don’t return minus infinity.
